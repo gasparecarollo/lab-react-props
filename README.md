@@ -8,25 +8,12 @@ Pass props through multiple components to build a mockup of a "FundMe"-type webs
 
 ## Lab Setup
 
-### Getting started
-
-1. Fork and clone this repository.
-
-1. Navigate to the cloned repository's directory on your command line. Then, run the following command:
-
-   ```
-   npm install
-   ```
-
-   This will install the libraries needed to run the tests.
-
-1. Open up the repository in VSCode. Follow the instructions below to complete the Lab.
 
 ### Getting started
 
 1. Fork and clone this repository.
 
-1. Navigate to the cloned repository's directory on your command line. Then, run the following command:
+2. Navigate to the cloned repository's directory on your command line. Then, run the following command:
 
    ```
    npm install
@@ -34,9 +21,9 @@ Pass props through multiple components to build a mockup of a "FundMe"-type webs
 
    This will install the libraries needed.
 
-1. Open up the repository in VSCode. Follow the instructions below to complete the Lab.
+3. Open up the repository in VSCode. Follow the instructions below to complete the Lab.
 
-1. Deploy this application to Netlify and add the link to your netlify site below:
+4. Deploy this application to Netlify and add the link to your netlify site below:
 
 - [MY LIVE SITE URL]()
 
@@ -46,7 +33,7 @@ Inside of the `App.js` file are two variables which will serve as props for your
 
 1. `targetAmount`: A number, in dollars, that represents the total amount of money attempting to be raised.
 
-1. `donations`: An array of objects, where each object represents a donation.
+2. `donations`: An array of objects, where each object represents a donation.
 
 Create each component in the `Components/` directory and pass props from the `App` component to each of the components to create the mockup as seen above. HTML snippets for each component is included below.
 
