@@ -46,11 +46,16 @@ const donations = [
 const RecentDonations = (donationDataToRender) => {
   return (
 
-   const donatorName = donations.map((eachDonation) => { return <donatorName key={eachDonation.name} donationDataToRender={eachDonation.name} /> });
-  const donationAmount = donations.map((eachAmount) => { return <donationAmount key={eachAmount.amount} donationDataToRender={eachAmount.amount} /> });
-  const donatorMessage = donations.map((eachMessage) => { return <donatorMessage key={eachMessage.caption} donationDataToRender={eachMessage.caption} /> });
+    donatorName = donations.map((eachDonation) => { return <donatorName key={eachDonation.name} donationDataToRender={eachDonation.name} /> })
+    donationAmount = donations.map((eachAmount) => { return <donationAmount key={eachAmount.amount} donationDataToRender={eachAmount.amount} /> })
+  donatorMessage = donations.map((eachMessage) => { return <donatorMessage key={eachMessage.caption} donationDataToRender={eachMessage.caption} /> })
+  console.log(donatorName)
+  console.log(donationAmount)
+  console.log(donatorMessage)
   )
+
 }
+
 
 
 
