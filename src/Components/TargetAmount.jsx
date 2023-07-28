@@ -1,13 +1,17 @@
+import Progress from "Progress.jsx";
 
 
-function TargetAmount() {
+const TargetAmount = (amountToRender) => {
     return (
 
+        <li>
+            {amountToRender.amount}
+
+        </li>
 
 
 
-
-)
+    )
 
 
 

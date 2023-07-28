@@ -1,3 +1,4 @@
+import RecentDonations from "./RecentDonations";
 import TargetAmount from "./TargetAmount";
 
 
@@ -9,21 +10,21 @@ import TargetAmount from "./TargetAmount";
 </section>
 
 
-const Progress = () => {
+function Progress() {
   return {
 
-    donations.forEach(donationAmount => {
+    RecentDonations.forEach((donationAmount) => {
       raised = donationAmount.amount
-    }
-    });
+    })
+    Progress = TargetAmount - RecentDonations;
 
 
+  };
 
 
+}
 
 
-
-
-  export default function Progress() {
-    return null;
-  }
+export default function Progress() {
+  return null;
+}
