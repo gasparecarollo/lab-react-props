@@ -61,5 +61,11 @@ const RecentDonations = (donationDataToRender) => {
 
 
 export default function RecentDonations() {
-  return null;
+
+  //return <></>; //ghost tags
+
+  <>
+    <h2> - TEMP - Recent Donations</h2>
+
+  </>
 }

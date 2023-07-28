@@ -1,9 +1,9 @@
 import React from "react";
-import TopBar from "./Components/TopBar";
+import TopBar from "./Components/TopBar.jsx";
 import "./App.css";
 import DonationForm from "./Components/DonationForm";
 import Progress from "./Components/Progress";
-import RecentDonations from "./Components/RecentDonations";
+import RecentDonations from "./Components/RecentDonations.jsx";
 import TargetAmount from "./Components/TargetAmount";
 
 
@@ -43,14 +43,17 @@ const donations = [
   },
 ];
 
+
 function App() {
   return (
     <>
       <TopBar />
       <main className="container">
-        <section className="sidebar">{/* Recent Donations */}</section>
+        <section className="sidebar">{/* Recent Donations */} <RecentDonations /> </section>
         <section className="">
           {/* Progress */}
+          {/* <Progress nameAsKey={nameHereInFileScope} /> */}
+          <Progress targetAmountFromApp={targetAmount} key />
           {/* Donation Form */}
         </section>
       </main>
@@ -59,3 +62,14 @@ function App() {
 }
 
 export default App;
+
+
+/*
+
+<App/>
+
+<TopBar />
+
+When you see this "{/ * Recent Donations * /}", it means they want you to render Recent Donations.
+
+*/
